@@ -10,9 +10,9 @@ It works as was supposed now.
 
 Enjoy!
 
-Feel Free to use it in Your Own Project for Your Customers, 
+Feel Free to use it in Your Own Projects for Your Customers, 
 
-for example in Your Landing Page as a Background Music switcher as I do,
+for example in Your Landing Pages as a Background Music switcher as I do,
 
 or as a Language Switcher(I will do it also in my resume), 
 
