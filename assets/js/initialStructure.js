@@ -4,7 +4,7 @@ function mainPageContent() {
     const renderMainPageContent =
         `
         <div class="container">
-            <h1>Animated Modal Window 2.0</h1>
+            <h1>Animated Responsive Modal Window 2.0</h1>
             <h2>for my future Sailor-Welder resume 😎</h2>
             <p>Version 2_0</p>
         </div>
