@@ -36,7 +36,7 @@ body {
     justify-content: space-around;
     font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
     /* font-size: calc(18px + (30 - 18) * ((100vw - 300px) / (1600 - 300))); */
-    background-color: #3b4aed;
+    background-color: #0e1991;
     color: #eee;
     height: 600px;
     width: 500px;
