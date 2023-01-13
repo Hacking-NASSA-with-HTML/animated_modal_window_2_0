@@ -1,16 +1,20 @@
 const button2 = document.getElementById('button2')
 button2.addEventListener('click', () => handleOpenModal())
+// let addToggleModalWindow = document.querySelector('.modal2')
 
 
 function renderModal() {
     const renderedDivModal2 =
         `
         <div class='modal2'>
-            <div class='modal-content'>               
-                <div class='title'>Value</div>
-                <div class='title'>Value</div>
-                <div class='close-modal2'>
-                    close window X
+            <div class='modal-content'>                              
+                <div class="modalHeader">
+                    <span class="modalTitle">Choose the Music</span>
+                    <span class='close-modal2'>X</span>
+                </div>
+                <div class="modalContent">
+                    <p class="Joyful">Joyful Music</p>
+                    <p class="Mystical">Mystical Music</p>
                 </div>
             </div>
         </div>
@@ -21,7 +25,6 @@ root.insertAdjacentHTML("afterend", renderModal())
 
 
 function handleOpenModal() {
-    let addToggleModalWindow = document.querySelector('.modal2')
     addToggleModalWindow.classList.add('openModalWin')
 
     const closeModalButton = document.querySelector('.close-modal2')

@@ -1,4 +1,5 @@
 let backgroundMusicDiv = document.querySelector('.backgroundMusicDiv')
+let addToggleModalWindow = document.querySelector('.modal2')
 
 let JoyfulMusic = document.querySelector('.Joyful')
 let MysticalMusic = document.querySelector('.Mystical')
@@ -16,12 +17,20 @@ JoyfulMusic.addEventListener('click', () => {
         JoyfulMusicSound.volume = 0.25
         JoyfulMusicSound.play()
         joyfulBackgroundMusic = false
-        modal.close()
+        addToggleModalWindow.classList.remove('openModalWin')
+        addToggleModalWindow.classList.add('hideModalWin')
+        setTimeout(() => {
+            addToggleModalWindow.classList.remove('hideModalWin')
+        }, 300)
     } else {
         backgroundMusicDiv.innerText = 'Music is paused'
         JoyfulMusicSound.pause()
         joyfulBackgroundMusic = true
-        modal.close()
+        addToggleModalWindow.classList.remove('openModalWin')
+        addToggleModalWindow.classList.add('hideModalWin')
+        setTimeout(() => {
+            addToggleModalWindow.classList.remove('hideModalWin')
+        }, 300)
     }
 })
 
@@ -31,12 +40,20 @@ MysticalMusic.addEventListener('click', () => {
         MysticalMusicSound.volume = 0.25
         MysticalMusicSound.play()
         mysticalBackgroundMusic = false
-        modal.close()
+        addToggleModalWindow.classList.remove('openModalWin')
+        addToggleModalWindow.classList.add('hideModalWin')
+        setTimeout(() => {
+            addToggleModalWindow.classList.remove('hideModalWin')
+        }, 300)
     } else {
         backgroundMusicDiv.innerText = 'Music is paused'
         MysticalMusicSound.pause()
         mysticalBackgroundMusic = true
-        modal.close()
+        addToggleModalWindow.classList.remove('openModalWin')
+        addToggleModalWindow.classList.add('hideModalWin')
+        setTimeout(() => {
+            addToggleModalWindow.classList.remove('hideModalWin')
+        }, 300)
     }
 })
 

@@ -10,10 +10,7 @@ function mainPageContent() {
             <p>Version 2_0</p>
         </div>
         <div class="buttonWrapperDiv">
-            <button type="button" class="button" id="button">Click To Open Modal Window To Choose Music</button>
-        </div>
-        <div class="buttonWrapperDiv">
-            <button type="button" class="button" id="button2">Second OptionClick To Open Modal Window</button>
+            <button type="button" class="button" id="button2">Click To Open Modal Window</button>
         </div>
         <div class="backgroundMusicDiv">No Background Music</div>
     `
