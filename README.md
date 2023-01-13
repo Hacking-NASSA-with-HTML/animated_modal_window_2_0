@@ -18,7 +18,7 @@ or as a Language Switcher(I will do it also in my resume),
 
 or as a Form Sender, 
 
-and Earn Money 💲💸💰   
+### and Earn Money 💲💸💰   
 
 Give this repo a Star ⭐
 
