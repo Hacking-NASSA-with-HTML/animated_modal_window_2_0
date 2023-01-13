@@ -1,6 +1,9 @@
 const button2 = document.getElementById('button2')
 button2.addEventListener('click', () => handleOpenModal())
-// let addToggleModalWindow = document.querySelector('.modal2')
+// doesn't work if declared at the start of the file
+// works only after rendering in a DOM tree on line 12
+// and declaring on line 29
+// const addToggleModalWindow = document.querySelector('.modal2')
 
 
 function renderModal() {
@@ -23,6 +26,8 @@ function renderModal() {
 }
 root.insertAdjacentHTML("afterend", renderModal())
 
+const addToggleModalWindow = document.querySelector('.modal2')
+
 
 function handleOpenModal() {
     addToggleModalWindow.classList.add('openModalWin')
@@ -37,8 +42,7 @@ function handleOpenModal() {
     })
 }
 
-let backgroundMusicDiv = document.querySelector('.backgroundMusicDiv')
-let addToggleModalWindow = document.querySelector('.modal2')
+const backgroundMusicDiv = document.querySelector('.backgroundMusicDiv')
 
 let JoyfulMusic = document.querySelector('.Joyful')
 let MysticalMusic = document.querySelector('.Mystical')
