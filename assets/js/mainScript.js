@@ -15,7 +15,7 @@ function renderModal() {
                     <span class="modalTitle">Choose the Music</span>
                     <span class='close-modal2'>X</span>
                 </div>
-                <div class="modalContent">
+                <div class="musicList">
                     <p class="Joyful">Joyful Music</p>
                     <p class="Mystical">Mystical Music</p>
                 </div>
