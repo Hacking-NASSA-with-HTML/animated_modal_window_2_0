@@ -10,9 +10,17 @@ It works as was supposed now.
 
 Enjoy!
 
-Use it in Your Own Project for Your Customer, for example in Your Landing Page as a Background Music switcher as I do,
+Feel Free to use it in Your Own Project for Your Customers, 
 
-or as a Language Switcher(I will do it also), or as a Form Sender and Earn Money 💲💸💰   Give this repo a Star ⭐
+for example in Your Landing Page as a Background Music switcher as I do,
+
+or as a Language Switcher(I will do it also in my resume), 
+
+or as a Form Sender, 
+
+and Earn Money 💲💸💰   
+
+Give this repo a Star ⭐
 
 See the project on [Github Pages](https://hacking-nassa-with-html.github.io/animated_modal_window_2_0/) .
 
