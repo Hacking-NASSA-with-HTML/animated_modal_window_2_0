@@ -1,0 +1,3 @@
+Sitemap: https://hacking-nassa-with-html.github.io/animated_modal_window_2_0/sitemap.xml
+User-agent: *
+Disallow:
