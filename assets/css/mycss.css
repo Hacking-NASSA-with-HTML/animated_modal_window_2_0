@@ -131,6 +131,7 @@ body {
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
+    max-width: 1024px;
 }
 
 .buttonWrapperDiv {
@@ -138,6 +139,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    max-width: 1024px;
 }
 
 .button {
