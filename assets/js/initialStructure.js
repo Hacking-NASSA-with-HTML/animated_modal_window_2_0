@@ -4,9 +4,8 @@ function mainPageContent() {
     const renderMainPageContent =
         `
         <div class="container">
-            <h1>JavaScript Practice</h1>
-            <h2>Modal Window 2.0</h2>
-            <p>Fully working modal window</p>
+            <h1>Modal Window 2.0</h1>
+            <h2>for my future Sailor-Welder resume</h2>
             <p>Version 2_0</p>
         </div>
         <div class="buttonWrapperDiv">
