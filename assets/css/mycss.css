@@ -33,12 +33,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
+    justify-content: center;
+    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
     /* font-size: calc(18px + (30 - 18) * ((100vw - 300px) / (1600 - 300))); */
     background-color: #0e1991;
     color: #eee;
-    height: 600px;
+    height: auto;
     width: 500px;
     margin: auto;
     padding: 30px 0;
@@ -109,7 +109,7 @@ body {
 }
 
 .musicList p {
-    margin: 20px 0 70px 0;
+    margin: 20px 0 40px 0;
     text-align: center;
 }
 
@@ -191,11 +191,11 @@ body {
 @media (max-width: 767px) {
 
     .modal-content {
-        width: 90vw;
-        height: 90vh;
+        width: 86vw;
+        height: 60vh;
     }
 
     .modalTitle {
-        width: 70vw;
+        width: 65vw;
     }
 }
