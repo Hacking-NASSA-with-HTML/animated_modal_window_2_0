@@ -8,6 +8,8 @@ It works as was supposed now.
 
 Enjoy!
 
+Use it in Your Project and Earn Money 💲💸💰   Give this repo a Star ⭐
+
 See the project on [Github Pages](https://hacking-nassa-with-html.github.io/animated_modal_window_2_0/) .
 
 please 🙌 let me know if you have found any issues ⭐
