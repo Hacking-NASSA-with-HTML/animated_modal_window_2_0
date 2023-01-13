@@ -1,4 +1,6 @@
-# javascript modal window
+![](https://github.com/Hacking-NASSA-with-HTML/modal_window_2_0/blob/main/assets/img/FB_open_graph_1200x630_image.jpg)
+
+# Animated JavaScript modal window
 
 ## 2_0 version
 
