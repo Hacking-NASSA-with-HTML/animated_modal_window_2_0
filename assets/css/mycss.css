@@ -201,4 +201,9 @@ body {
     .modalTitle {
         width: 65vw;
     }
+
+    .button {
+        margin: 10px;
+        width: 86vw;
+    }
 }
