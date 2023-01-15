@@ -111,13 +111,13 @@ body {
 .Joyful,
 .Mystical {
     cursor: pointer;
+    transition: .3s ease;
 }
 
 .Joyful:hover,
 .Mystical:hover {
     color: red;
     transform: scale(1.1);
-    transition: .3s ease;
 }
 
 .container {
